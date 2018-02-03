@@ -3,12 +3,15 @@
 سورس ورژن 1 مورگان روی گیت قرار گرفت
 :
 اول از همه سورس را از حالت زیپ در اورید :
+
 unzip Morgan.zip
 
  سپس سورس را کلون میکنیم :
+ 
 git clone https://github.com/morgan-team/morgantm
 
  وارد مسیر زیر میشویم**
+ 
 Morgan/api/bot/bot.lua
 در خط [3] توکن ربات (api) که مرحله سوم با شماره ربات ساخیم وارد میکنیم.
 در خط [5] ایدی سودو اصلی یعنی خودتون قرار میدید .
@@ -26,6 +29,7 @@ Morgan/cli/bot/bot.lua
 سیو میکنم‌ خارج میشیم‌....
 
  دستورات زیر در ترمینال وارد کنید ...
+ 
 cd Morgan/cli
 
 chmod +x Morgan.sh
@@ -41,24 +45,31 @@ chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
 شماره ربات وارد مکنید کد میزنید‌
 از سرور خارج و دوباره وصل میشید...
 کد های زیر را در سرور میزنیم 
+
 cd Morgan/api
 
 chmod +x Morgan.sh
 
 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
+
 ./Morgan.sh install
+
 ./Morgan.sh
 صبر کنید تموم شه ، بعد ترمینال رو ببندید .
 
 
+
 حالا ربات اماده لانچ کردنه :
+
 cd Morgan/api && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh
 
 یه ترمینال دیگه باز کنید و این رو بزنید : 
+
 cd Morgan/cli && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh 
 
 تموم . میتونید از سرور خارج شید .
 
 ▪️Channel : @morgan_team
+
 ▪️Edited By : @sheikh_mamad
 
