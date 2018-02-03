@@ -5,7 +5,7 @@
 
 اول از همه سورس را کلون کنید :
 
-git clone https://github.com/morgan-team/morgantm
+git clone https://github.com/morgan-team/morgan
 
  سپس سورس رااز زیپ خارح کنید :
  
