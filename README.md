@@ -1,15 +1,9 @@
 # morgantm
 
-سورس ورژن 1 مورگان روی گیت قرار گرفت:
-
-ابتدا پیش نیاز های سورس نصب میکنیم‌ :
-
- sudo apt-get update; sudo apt-get upgrade; sudo apt-get install tmux; sudo apt-get install luarocks; sudo apt-get install screen; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev; sudo apt-get update; sudo apt-get install; sudo apt-get install upstart-sysv
-
- wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz;tar zxpf luarocks-2.2.2.tar.gz;cd luarocks-2.2.2 && ./configure; sudo make bootstrap;sudo luarocks install luasocket;sudo luarocks install luasec;sudo luarocks install redis-lua;sudo luarocks install lua-term;sudo luarocks install serpent;sudo luarocks install dkjson;sudo luarocks install lanes;sudo luarocks install Lua-cURL
-
-بزنید :
- cd
+سورس ورژن 1 مورگان روی گیت قرار گرفت
+:
+اول از همه سورس را از حالت زیپ در اورید :
+unzip Morgan.zip
 ======================
  سپس سورس را کلون میکنیم :
 git clone https://github.com/morgan-team/morgantm
